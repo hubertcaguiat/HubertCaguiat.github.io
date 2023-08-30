@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body {
+  background: #f9f9f9;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+.parallax {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#text {
+  position: absolute;
+  font-size: 5em;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.parallax img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
+  height: 100vh;
+}
+
+.sec {
+  position: relative;
+  background: #280003;
+  padding: 100px;
+}
+
+.sec h2 {
+  font-size: 3em;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.sec p {
+  font-size: 1em;
+  color: #fff;
+  font-weight: 300;
+}
+
+
+
+/* Adjust the style of the floating button */
+.floating-button {
+  position: fixed;
+  bottom: 25px; /* Adjust the distance from the bottom as needed */
+  right: 25px; /* Adjust the distance from the right as needed */
+
+  color: #fff;
+
+  cursor: pointer;
+font-size:25px;
+}
+
+.floating-button a:visited{
+  color: #fff;
+}
+
